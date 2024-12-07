@@ -1419,7 +1419,7 @@ body,html{
     bottom: 16px;
     color: grey;
     line-height: 30px;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   .ticket-fee {
     position: relative;
@@ -1527,6 +1527,7 @@ body,html{
     position: relative;
     left: -116px;
     bottom: -16px;
+    font-size: 0.8rem;
 }
 .address1 p {
     width: 271%;
@@ -1551,16 +1552,17 @@ body,html{
     top: -13px;
   }
   .contact {
-    left: -89px;
+    
     flex-direction: column;
-    position: relative;
-    bottom: 183px
-  }
+    margin-top: -188px;
+    margin-left: -80px;
+}
+
   .contactform {
     position: relative;
     /* bottom: 70px; */
     left: 100px;
-    width: 70%;
+    width: 54%;
     margin-top: -23px;
 }
   .full-name1{
@@ -1577,7 +1579,9 @@ body,html{
     width: 119%;
   }
   .submit3{
-    height: 41px;
+    height: 37px;
+    width: 75%;
+    left: 54px;
     bottom: 36px;
   }
   .map-section{
@@ -1588,32 +1592,51 @@ body,html{
 .addres{
   position: relative;
   bottom: 420px;
-  width: 59%;
+  width: 179px;
 }
 .addres h6 {
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 0.7rem;
 }
 .parag1{
-  font-size: 13px;
+  font-size: 0.7rem
 }
   .parag{
     left: -9px;
   }
   .submits{
-    top: 64.9px;
+        top: 67.9px;
         color: white;
         left: -29.5px;
         background-color: rgba(235, 54, 54, 0.781);
         border: none;
         height: 30px;
-        width: 147.9%;
-    
-  }
+        width: 178px;
+    }
   .map img{
     right: 102px;
     margin-top: -142px;
     bottom: 257px;
+    width: 80%;
     
   }
+.logo1{
+  margin-top: -340px;
+  margin-left: -72px;
+}
+.logo1 img{
+  width: 12.5%;
+}
+.text1{
+  font-size: 7px;
+  margin-top: 13px;
+}
+.sub-footer{
+  flex-direction: column;
+}
+.sf1{
+  
+    margin-left: -110px;
+}
+
 }
