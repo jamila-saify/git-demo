@@ -996,9 +996,9 @@ body,html{
   overflow-x: hidden;
 }
 .section2{
-  bottom: 198px;
+  bottom: 240px;
   top: 79px;
-    right: 16px;
+    right: 14px;
 }
 
 
@@ -1047,18 +1047,7 @@ body,html{
  .logo img{
     width:100%;
  }
-   .img1 img{
-    float: right;
-    margin-left: auto;
-   }
-   .img2 img{
-    float: right;
-    margin-left: auto;
-   }
-   .img3 img{
-    float: right;
-    margin-left: auto; 
-   }
+   
  }
 .section1 img{
   height: 319px;
@@ -1625,7 +1614,7 @@ body,html{
   margin-left: -72px;
 }
 .logo1 img{
-  width: 12.5%;
+  width: 10.5%;
 }
 .text1{
   font-size: 7px;
@@ -1635,8 +1624,42 @@ body,html{
   flex-direction: column;
 }
 .sf1{
-  
+  left: 0px;
+  top: 0px;
     margin-left: -110px;
+    margin-top: 315px;
 }
+.img1 img {
+  width: 25%;
+  position: relative;
+   left: -10px; 
+  background-color: rgb(74, 44, 104);
+  padding: 5px;
+  border-radius: 200px 200px;
+   bottom: 30px;
+}
+  .img2 img {
+    width: 25%;
+    position: relative;
+    right: 0px;
+     left: 0px;
+    background-color: rgb(74, 44, 104);
+    padding: 5px;
+    border-radius: 200px;
+}
+
+.sf2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+   left: 0px;
+  bottom: 45px;
+}
+
+
+
+
+
+
 
 }

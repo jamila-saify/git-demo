@@ -517,3 +517,332 @@
     font-family: sans-serif;
     font-size: 15px;
   }
+  @media screen and  (min-width:320px) and (max-width:480px){
+    .header-section{
+      width: 100%;
+      height: 5rem;
+  }
+  .navbar{
+      margin-right: 262px;
+  }
+  
+      .logo{
+      position: relative;
+      top: -18px;
+      left: -48px;
+     width: 80px;
+     height: 115%;
+   }
+   .logo img {
+      width: 53%;
+      height: 38%;
+   }
+   .text{
+      font-size: 7px;
+      position: relative;
+      top: 5px;
+   }
+   .text h1{
+      font-size: 85%;
+   }
+   ul li a{
+      font-size: 68%;
+   }
+   .navbar ul{
+      position: relative;
+      bottom: -7px;
+      left: -68px;
+   }
+   @media screen and (min-width: 410px) and (max-width: 480px){
+      .navbar ul{
+          position: relative;
+         bottom: 25px;
+         left: 30px;
+      
+      }
+   .logo img{
+      width:100%;
+   }
+    
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-cont1 {
+    margin: 39px;
+    margin-left: 26px;
+    width: 89%;
+    margin-top: 13px;
+    height: 212px;
+}
+.sub-cont2{
+  margin-top: 15px;
+}
+  .event-head h2 {
+    font-size: 4vw;
+    padding-inline: 0px;
+    width: 175%;
+    position: relative;
+    bottom: 39px;
+}
+
+.event-para p {
+  font-size: 3vw;
+  padding-inline: 0px;
+  width: 107%;
+  color: azure;
+  position: relative;
+  bottom: 28px;
+  line-height: 19px;
+}
+.block {
+  margin: 20px;
+  padding: 30px;
+  width: 92%;
+  height: 68px;
+  background-color: #929b9c6b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: -18px;
+  margin-bottom: 28px;
+}
+.date{
+  width: 34%;
+    height: 68px;
+    color: azure;
+    position: relative;
+    bottom: 30px;
+    left: -30px;
+    padding: 0px;
+    padding-top: 18px;
+
+}
+.date h1{
+  font-size: 4vw;
+}
+.date h2 {
+  padding-inline: 35px;
+  font-size: 2vw;
+}
+
+.info h4 {
+  font-size: 3vw;
+  position: relative;
+  bottom: 22px;
+  right: 77px;
+  width: 163%;
+}
+.inform p {
+  width: 145%;
+  font-size: 1.4vw;
+  position: relative;
+  right: 72px;
+  color: rgb(49, 94, 94);
+  bottom: 22px;
+  line-height: 7px;
+}
+.button {
+  border: 1px solid rgb(49, 94, 94);
+  position: relative;
+  right: 71px;
+  width: 37px;
+  top: -17px;
+  height: 12px;
+}
+.button a{
+  font-size: 20%;
+  bottom: 7px;
+}
+
+.events1 {
+  flex-direction: column;
+}
+.events-head h3 {
+  font-size: 1.5rem;
+  margin-left: 32px;
+  position: relative;
+  top: 41px;
+}
+.pro-girl img {
+  width: 62%;
+  height: 131px;
+  position: relative;
+  left: 47px;
+  top: 55px;
+}
+
+.paragraph {
+  position: relative;
+  top: 111px;
+  right: 138px;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paragraph h5 {
+  font-size: 1.5rem;
+  font-weight: 545;
+  position: relative;
+  bottom: 46px;
+  padding: 10px;
+  color: rgb(110, 98, 98);
+  right: -172px;
+  width: 80%;
+  line-height: 33px;
+}
+.pp {
+  left: 175px;
+  font-size: 13px;
+  color: grey;
+  padding: 10px;
+  position: relative;
+  bottom: 59px;
+  width: 80%;
+  line-height: 22px;
+}
+
+.address h6 {
+  margin-top: -11px;
+  position: relative;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 550;
+  margin-left: -48px;
+  color: rgb(54, 50, 50);
+  right: -228px;
+  bottom: 27px;
+}
+.address p {
+  width: 158%;
+}
+.nyc {
+  width: 129%;
+  height: 39%;
+  position: relative;
+  right: -111px;
+  bottom: 16px;
+  color: grey;
+  line-height: 30px;
+  font-size: 0.8rem;
+}
+.ticket-fee {
+  position: relative;
+  right: -234px;
+  color: grey;
+  top: -2px;
+}
+.submit1 {
+  width: 33%;
+  height: 29px;
+  background-color: rgba(246, 138, 43, 0.5);
+  border-radius: 20px;
+  position: relative;
+  margin-left: -84px;
+  margin-top: 50px;
+}
+.purplesection {
+  height: auto;
+  margin-bottom: 172px;
+}
+.events2 {
+  top: 200px;
+  left: 24px;
+  height: auto;
+  flex-direction: column;
+  width: 84%;
+}
+.lines {
+  width: 204px;
+}
+.pro-boy img {
+  width: 72%;
+  height: 9rem;
+  position: relative;
+  left: 39px;
+  
+}
+
+.paragraph1 h5 {
+  font-size: 1.5rem;
+  font-weight: 545;
+  position: relative;
+  bottom: -16px;
+  padding: 10px;
+  color: rgb(110, 98, 98);
+  right: 66px;
+  width: 30%;
+  line-height: 33px;
+}
+.pp1 {
+  font-size: 13px;
+  color: grey;
+  padding: 10px;
+  position: relative;
+  bottom: 3px;
+  width: 217%;
+  line-height: 28px;
+  right: 66px;
+}
+.address1{
+  margin-top: 20px;
+}
+.address1 h6 {
+  margin-left: -57px;
+  position: relative;
+  bottom: 14px;
+  margin-top: 5px;
+}
+.paragraph1 {
+  position: relative;
+  top: 14px;
+  right: -85px;
+}
+.nyc1 {
+  color: gray;
+  position: relative;
+  left: -116px;
+  bottom: -16px;
+  font-size: 0.8rem;
+}
+.address1 p {
+  width: 271%;
+  margin-bottom: -20px;
+}
+.ticket-fee1 {
+  left: -17px;
+  position: relative;
+}
+.submit2 a {
+  font-size: 11px;
+}
+.submit2 {
+
+  margin-left: -281px;
+  width: 92%;
+  height: 28px;
+  background-color: rgba(246, 138, 43, 0.5);
+  border-radius: 20px;
+  position: relative;
+  margin-top: 100px;
+  top: -17px;
+}
+ 
+}
